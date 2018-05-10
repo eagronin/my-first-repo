@@ -1,0 +1,17 @@
+commit 5aa74c8316558d99fca22a0efc1d608ba5603a04
+Author: eagronin <gene262002@yahoo.com>
+Date:   Wed May 9 20:17:36 2018 -0700
+
+    added gitignore
+
+commit 65d63993f0b0f3039343c38d5856f5ca85f67496
+Author: eagronin <gene262002@yahoo.com>
+Date:   Wed May 9 19:20:03 2018 -0700
+
+    added two files
+
+commit 268e10a11705ddc9d62bd2d579af831f4b21c7ee
+Author: eagronin <gene262002@yahoo.com>
+Date:   Wed May 9 15:28:08 2018 -0700
+
+    added readme.txt
