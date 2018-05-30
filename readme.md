@@ -97,6 +97,7 @@ Alabama Birmingham       54033.333333   54400.000000   54966.666667
         Duncanville     108100.000000  112033.333333  116133.333333
         Forestdale       88966.666667   89500.000000   89600.000000
         Grayson Valley   88100.000000   89366.666667   90033.333333
+...
 ```
 
 Next step:  [Data Preparation](https://eagronin.github.io/university-towns-prepare/).
