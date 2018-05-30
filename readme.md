@@ -20,12 +20,12 @@ def load_university_town_data():
 The first five rows of the resulting data frame are as follows:
 
 ```
-     State    RegionName
-0  Alabama        Auburn
-1  Alabama      Florence
-2  Alabama  Jacksonville
-3  Alabama    Livingston
-4  Alabama    Montevallo
+                                        RegionName
+0                                    Alabama[edit]
+1                    Auburn (Auburn University)[1]
+2           Florence (University of North Alabama)
+3  Jacksonville (Jacksonville State University)[2]
+4       Livingston (University of West Alabama)[2]
 ...
 ```
 
@@ -48,12 +48,12 @@ def load_gdp_data():
 The first five rows of the resulting data frame are as follows:
 
 ```
-  Quarter      GDP  Lagged GDP  Change in GDP  Lagged Change in GDP  Lead Change in GDP
-0  2000Q1  12359.1         NaN            NaN                   NaN               233.4
-1  2000Q2  12592.5     12359.1          233.4                   NaN                15.2   
-2  2000Q3  12607.7     12592.5           15.2                 233.4                71.6   
-3  2000Q4  12679.3     12607.7           71.6                  15.2               -36.0   
-4  2001Q1  12643.3     12679.3          -36.0                  71.6                67.0
+  Quarter      GDP
+0  2000Q1  12359.1
+1  2000Q2  12592.5
+2  2000Q3  12607.7
+3  2000Q4  12679.3
+4  2001Q1  12643.3
 ...
 ```
 
@@ -83,20 +83,15 @@ states = {'OH': 'Ohio', 'KY': 'Kentucky', 'AS': 'American Samoa', 'NV': 'Nevada'
           'VA': 'Virginia'}
 ```
 
-The first 10 rows and three columns of the resulting data frame are as follows:
+The first five rows and seven columns of the resulting data frame are as follows:
 
 ```
-                               2000Q1         2000Q2         2000Q3
-State   RegionName                                                 
-Alaska  Anchorage       174633.333333  175266.666667  179566.666667
-        Fairbanks       163200.000000  165033.333333  169300.000000
-        Homer                     NaN            NaN            NaN
-Alabama Birmingham       54033.333333   54400.000000   54966.666667
-        Brookwood        92566.666667   95100.000000   98866.666667
-        Decatur                   NaN            NaN            NaN
-        Duncanville     108100.000000  112033.333333  116133.333333
-        Forestdale       88966.666667   89500.000000   89600.000000
-        Grayson Valley   88100.000000   89366.666667   90033.333333
+   RegionID    RegionName State   1996-04   1996-05   1996-06   1996-07
+0      6181      New York    NY       NaN       NaN       NaN       NaN
+1     12447   Los Angeles    CA  155000.0  154600.0  154400.0  154200.0
+2     17426       Chicago    IL  109700.0  109400.0  109300.0  109300.0
+3     13271  Philadelphia    PA   50000.0   49900.0   49600.0   49400.0
+4     40326       Phoenix    AZ   87200.0   87700.0   88200.0   88400.0
 ...
 ```
 
