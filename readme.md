@@ -59,4 +59,4 @@ states = {'OH': 'Ohio', 'KY': 'Kentucky', 'AS': 'American Samoa', 'NV': 'Nevada'
           'VA': 'Virginia'}
 ```
 
-The next step, which includes cleaning and processing of the data, is described [here](https://eagronin.github.io/university-towns-prepare/).
+Next step:  [Data Preparation](https://eagronin.github.io/university-towns-prepare/).
