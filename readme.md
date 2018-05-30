@@ -270,5 +270,5 @@ print(a)
 ```
 
 
-Here is how you make [a link](https://eagronin.github.io/hello-world/).
+The analysis is presented [here](https://eagronin.github.io/hello-world/).
 
