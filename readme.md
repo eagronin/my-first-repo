@@ -1,7 +1,7 @@
 # Data Acquisition
 
 ## Overview
-This section describes the data acquisition process for testing a hypothesis whetherd university towns have their mean housing prices less effected by recessions.  This analysis requires a list of university towns, mean / median housing prices by city for the purpose of comparing housing prices in university towns versus non-university towns, and GDP growth for determining the timing of recessions.
+This section describes the data acquisition process for testing a hypothesis whether university towns have their mean housing prices less effected by recessions.  This analysis requires a list of university towns, mean / median housing prices by city for the purpose of comparing housing prices in university towns versus non-university towns, and GDP growth for determining the timing of recessions.
 
 The next step, which includes cleaning and processing of the data, is described [here](https://eagronin.github.io/university-towns-prepare/).
 
