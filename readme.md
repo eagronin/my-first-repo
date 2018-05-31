@@ -12,10 +12,14 @@ A list of university towns in the United States is available from the Wikipedia 
 
 ```python
 def load_university_town_data():
+    
     university_towns = pd.read_table('/Users/eagronin/Documents/Data Science/Portfolio/Project Data/university_towns.txt', header = None)
     university_towns.columns = ['RegionName']
+    
     return university_towns
-print(load_university_town_data().head(5))
+
+print(load_university_town_data().head(5))    
+
 ```
 
 The first five rows of the resulting data frame are as follows:
@@ -37,14 +41,20 @@ GDP data used in the analysis are from the first quarter of 2000 onward.  The fo
 
 ```python
 def load_gdp_data():
+    
     gdp = pd.read_excel('/Users/eagronin/Documents/Data Science/Portfolio/Project Data/gdplev.xlsx', skiprows = 5)
     gdp = gdp[['Unnamed: 4', 'GDP in billions of chained 2009 dollars.1']]
     gdp.rename(columns = {'Unnamed: 4': 'Quarter', 'GDP in billions of chained 2009 dollars.1': 'GDP'}, inplace = True)
+    
+    # Drop quarters prior to 2000Q1
     i = gdp.index[gdp.Quarter == '2000Q1'][0]
     gdp = gdp[(gdp.index >= i)]
     gdp = gdp.reset_index(drop = True)
+    
     return gdp
-print(load_gdp_data().head(5))
+
+print(load_gdp_data().head(5))    
+
 ```
 
 The first five rows of the resulting data frame are as follows:
@@ -63,9 +73,12 @@ Housing data for the United States is from the Zillow research data site.  In pa
 
 ```python
 def load_housing_data():
+    
     housing_data = pd.read_csv('/Users/eagronin/Documents/Data Science/Portfolio/Project Data/City_Zhvi_AllHomes.csv', header = 0)
     housing_data = housing_data.drop(['Metro', 'CountyName', 'SizeRank'], axis = 1)
+    
     return housing_data
+
 print(load_housing_data().iloc[0:5, 0:7])
 ```
 
