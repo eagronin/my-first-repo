@@ -20,7 +20,7 @@ def load_university_town_data():
 The first five rows of the resulting data frame are as follows:
 
 ``` 
-`print(load_university_town_data().head(5))`
+print(load_university_town_data().head(5))
 
                                         RegionName
 0                                    Alabama[edit]
@@ -50,6 +50,8 @@ def load_gdp_data():
 The first five rows of the resulting data frame are as follows:
 
 ```
+print(load_gdp_data().head(5))
+
   Quarter      GDP
 0  2000Q1  12359.1
 1  2000Q2  12592.5
@@ -88,6 +90,8 @@ states = {'OH': 'Ohio', 'KY': 'Kentucky', 'AS': 'American Samoa', 'NV': 'Nevada'
 The first five rows and seven columns of the resulting data frame are as follows:
 
 ```
+print(load_housing_data().iloc[0:5, 0:7])
+
    RegionID    RegionName State   1996-04   1996-05   1996-06   1996-07
 0      6181      New York    NY       NaN       NaN       NaN       NaN
 1     12447   Los Angeles    CA  155000.0  154600.0  154400.0  154200.0
