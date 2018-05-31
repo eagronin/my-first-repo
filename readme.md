@@ -21,8 +21,7 @@ The first five rows of the resulting data frame are as follows:
 
 ```python 
 print(load_university_town_data().head(5))
-```
-```
+``````
                                         RegionName
 0                                    Alabama[edit]
 1                    Auburn (Auburn University)[1]
