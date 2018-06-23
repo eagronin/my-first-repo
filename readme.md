@@ -5,6 +5,10 @@ This section describes data acquisition process for testing a hypothesis whether
 
 The next step, which includes cleaning and processing of the data, is described [here](https://eagronin.github.io/university-towns-prepare/).
 
+This project is based on assignments from Introduction to Data Science in Python by University of Michigan on Coursera
+
+The analysis for this project was performed in Python.
+
 ## Data 
 All the data have been downloaded from the Coursera website. The original sources of the data and code for loading the data are described below.
 
